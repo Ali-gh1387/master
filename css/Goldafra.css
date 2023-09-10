@@ -11,7 +11,7 @@ header {
 }
 .head {
   display: flex;
-  width: 700px;
+  width: 100%;
   margin: 0;
 }
 .head1 {
@@ -29,14 +29,25 @@ header {
   background-color: #3e2723;
   color: #fff;
 }
-.button:active {
-}
+/* .button:active {
+} */
 .icon {
   width: 100px;
   border-radius: 4px;
 }
 a {
   text-decoration: none;
+}
+.white {
+  background-color: #fff;
+  padding: 6px;
+  border-radius: 5px;
+}
+#search-box {
+  font-size: 18px;
+  border-radius: 12px;
+  padding: 5px;
+  color: #000;
 }
 main {
   background: url("../img2/615f660487be26497d96d1bdea9c7ddf-1030x644.jpg");
@@ -62,6 +73,7 @@ main {
   background-size: 100%;
   margin-top: 60px;
 }
+
 footer {
   height: 300px;
   background: url("../img2/623726339.jpg");
@@ -80,7 +92,8 @@ footer {
   width: 500px;
   margin: 30px;
 }
-.map2 {
-  width: 100%;
-  height: 100%;
+.icon-map {
+  width: 30%;
+  /* height: 30%; */
+  background-size: 100%;
 }
